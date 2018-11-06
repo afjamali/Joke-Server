@@ -1,0 +1,190 @@
+
+[ comments added inside [ ] are typed in manually by me ]
+[ P = PROVERB, M = MAINTENANCE, J = JOKE ]
+[ OUTPUT ]
+[ DEFAULT = JOKE ]
+
+
+[ Server side ]
+run:
+In the admin looper thread
+Afshin Jamali's Joke server starting up, listening at port 5035
+
+Generating J message for user null
+Generating J message for user AJ
+Generating J message for user Mike
+Performing task P for ClientAdmin...
+Generating P message for user Mike
+Generating P message for user AJ
+Generating P message for user AJ
+Generating P message for user AJ
+Generating P message for user AJ
+Generating P message for user AJ
+Generating P message for user AJ
+Generating P message for user AJ
+Generating P message for user AJ
+Generating P message for user AJ
+Generating P message for user AJ
+Generating P message for user AJ
+Performing task J for ClientAdmin...
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+Performing task M for ClientAdmin...
+Generating M message for user AJ
+Generating M message for user AJ
+Performing task J for ClientAdmin...
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+Generating J message for user AJ
+ModeWorker has captured a shutdown request.
+Listener is now shutting down as per Administrator's request.
+BUILD SUCCESSFUL (total time: 95 minutes 58 seconds)
+
+
+
+[ localhost clientAdmin side ]
+run:
+Afshin Jamali's Joke Client Admin, 1.7.
+
+Using server: localhost, Port: 5036
+Enter a mode: J = Joke, P = Proverb, M = Maintanence. (quit) to end. (shutdown) to end server: p
+Server now in P mode
+Enter a mode: J = Joke, P = Proverb, M = Maintanence. (quit) to end. (shutdown) to end server: j
+Server now in J mode
+Enter a mode: J = Joke, P = Proverb, M = Maintanence. (quit) to end. (shutdown) to end server: m
+Server now in M mode
+Enter a mode: J = Joke, P = Proverb, M = Maintanence. (quit) to end. (shutdown) to end server: j
+Server now in J mode
+Enter a mode: J = Joke, P = Proverb, M = Maintanence. (quit) to end. (shutdown) to end server: shutdown
+Shutdown request has been noted by Modeworker.
+Please send final shutdown request to listener.
+Enter a mode: J = Joke, P = Proverb, M = Maintanence. (quit) to end. (shutdown) to end server: shutdown
+Server is now shutting down. Goodbye!
+Enter a mode: J = Joke, P = Proverb, M = Maintanence. (quit) to end. (shutdown) to end server: BUILD STOPPED (total time: 95 minutes 53 seconds)
+
+
+
+[ localhost client side ]
+run:
+Afshin Jamali's Joke Client, 1.7.
+
+Using server: localhost, Port: 5035
+Enter your username, (quit) to end: Mike
+Press Enter to receive output from server, (quit) to end: 
+C. What seven letters did Mike say when he opened
+the cookie jar?
+O I C U R M T
+Press Enter to receive output from server, (quit) to end: 
+A. All work and no play makes Mike a dull young person.
+Press Enter to receive output from server, (quit) to end: 
+Socket error.
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:154)
+	at java.io.BufferedReader.readLine(BufferedReader.java:317)
+	at java.io.BufferedReader.readLine(BufferedReader.java:382)
+	at JokeClient.getRemoteMessage(JokeClient.java:124)
+	at JokeClient.main(JokeClient.java:88)
+Press Enter to receive output from server, (quit) to end: BUILD STOPPED (total time: 23 minutes 5 seconds)
+
+
+
+[ second computer remote connect ]
+run:
+Afshin Jamali's Joke Client, 1.7.
+
+Using server: 192.168.1.76, Port: 5035
+Enter your username, (quit) to end: AJ
+Press Enter to receive output from server, (quit) to end: 
+B. AJ kills vegetarian vampires with a steak to the heart.
+Press Enter to receive output from server, (quit) to end: 
+C. AJ can't please everyone.
+Press Enter to receive output from server, (quit) to end: 
+A. All work and no play makes AJ a dull young person.
+Press Enter to receive output from server, (quit) to end: 
+E. The grass is always greener on AJ's side of the fence.
+Press Enter to receive output from server, (quit) to end: 
+B. AJ can't make an omelette without breaking eggs.
+Press Enter to receive output from server, (quit) to end: 
+D. What AJ doesn't know can't hurt AJ.
+Press Enter to receive output from server, (quit) to end: 
+E. The grass is always greener on AJ's side of the fence.
+Press Enter to receive output from server, (quit) to end: 
+B. AJ can't make an omelette without breaking eggs.
+Press Enter to receive output from server, (quit) to end: 
+C. AJ can't please everyone.
+Press Enter to receive output from server, (quit) to end: 
+D. What AJ doesn't know can't hurt AJ.
+
+Press Enter to receive output from server, (quit) to end: A. All work and no play makes AJ a dull young person.
+Press Enter to receive output from server, (quit) to end: 
+D. What AJ doesn't know can't hurt AJ.
+Press Enter to receive output from server, (quit) to end: [ MODE SWITCH TO JOKE ]
+D. How does AJ get a tissue to dance?
+Put a little boogey in it!
+Press Enter to receive output from server, (quit) to end: 
+C. What seven letters did AJ say when he opened
+the cookie jar?
+O I C U R M T
+Press Enter to receive output from server, (quit) to end: 
+E. AJ walks into a bar with jumper cables around the neck. The bartender
+says, "You can stay but don't try to start anything."
+Press Enter to receive output from server, (quit) to end: 
+A. AJ totally understand how batteries feel because AJ is rarely ever included in things either.
+Press Enter to receive output from server, (quit) to end: 
+C. What seven letters did AJ say when he opened
+the cookie jar?
+O I C U R M T
+Press Enter to receive output from server, (quit) to end: 
+E. AJ walks into a bar with jumper cables around the neck. The bartender
+says, "You can stay but don't try to start anything."
+Press Enter to receive output from server, (quit) to end: 
+B. AJ kills vegetarian vampires with a steak to the heart.
+Press Enter to receive output from server, (quit) to end: 
+A. AJ totally understand how batteries feel because AJ is rarely ever included in things either.
+Press Enter to receive output from server, (quit) to end: 
+D. How does AJ get a tissue to dance?
+Put a little boogey in it!
+Press Enter to receive output from server, (quit) to end: 
+D. How does AJ get a tissue to dance?
+Put a little boogey in it!
+Press Enter to receive output from server, (quit) to end: 
+C. What seven letters did AJ say when he opened
+the cookie jar?
+O I C U R M T
+Press Enter to receive output from server, (quit) to end: 
+B. AJ kills vegetarian vampires with a steak to the heart.
+Press Enter to receive output from server, (quit) to end: 
+The server is temporarily unavailable -- check-back shortly. [ MODE SWITCH TO MAINTENANCE]
+Press Enter to receive output from server, (quit) to end: 
+The server is temporarily unavailable -- check-back shortly.
+Press Enter to receive output from server, (quit) to end:  [ MODE SWITCH TO JOKE]
+E. AJ walks into a bar with jumper cables around the neck. The bartender
+says, "You can stay but don't try to start anything."
+Press Enter to receive output from server, (quit) to end: 
+A. AJ totally understand how batteries feel because AJ is rarely ever included in things either.
+Press Enter to receive output from server, (quit) to end: 
+A. AJ totally understand how batteries feel because AJ is rarely ever included in things either.
+Press Enter to receive output from server, (quit) to end: 
+B. AJ kills vegetarian vampires with a steak to the heart.
+Press Enter to receive output from server, (quit) to end: 
+E. AJ walks into a bar with jumper cables around the neck. The bartender
+says, "You can stay but don't try to start anything."
+Press Enter to receive output from server, (quit) to end: 
